@@ -29,7 +29,7 @@ const Detail=()=>{
                     <Text mb='8px' fontSize='xs'>CARDHOLDER NAME</Text>
                     <InputGroup>
                     <InputLeftElement pointerEvents='none'
-                    children={<InfoIcon color='red.300' />} />
+                    children={<InfoIcon color='red' />} />
                     <Input variant='flushed' name='name'onChange={handleChange}/>
                     </InputGroup>
                 </div>
@@ -37,7 +37,7 @@ const Detail=()=>{
                     <Text mb='8px' fontSize='xs'>CARD NUMBER</Text>
                     <InputGroup>
                     <InputLeftElement pointerEvents='none'
-                    children={<CalendarIcon color='red.300' />} />
+                    children={<CalendarIcon color='red' />} />
                     <Input placeholder='' variant='flushed' name='number' onChange={handleChange} />
                     </InputGroup>
                 </div>
@@ -46,7 +46,7 @@ const Detail=()=>{
                     <Text mb='8px' fontSize='xs'>EXPIRY MONTH</Text>
                     <InputGroup>
                     <InputLeftElement pointerEvents='none'
-                    children={<CalendarIcon color='red.300' />} />
+                    children={<CalendarIcon color='red' />} />
                     <Input type='number' variant='flushed' name='emonth' onChange={handleChange}/>
                     </InputGroup>
                 </div>
@@ -54,7 +54,7 @@ const Detail=()=>{
                     <Text mb='8px' fontSize='xs'>EXPIRY YEAR</Text>
                     <InputGroup>
                     <InputLeftElement pointerEvents='none'
-                    children={<CalendarIcon color='red.300' />} />
+                    children={<CalendarIcon color='red' />} />
                     <Input type='number' variant='flushed' name='eyear' onChange={handleChange}/>
                     </InputGroup>
                 </div>
@@ -62,7 +62,7 @@ const Detail=()=>{
                     <Text mb='8px' fontSize='xs'>CVV</Text>
                     <InputGroup>
                     <InputLeftElement pointerEvents='none'
-                    children={<LockIcon color='red.300' />} />
+                    children={<LockIcon color='red' />} />
                     <Input type='number' variant='flushed' name='cvv' onChange={handleChange} />
                     </InputGroup>
                 </div>
